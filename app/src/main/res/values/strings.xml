@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">WalletTransfer</string>
+
+    <string name="signup_first_name">First name</string>
+    <string name="signup_last_name">Last name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_mobile_no">Mobile no</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_referral_code">Referral code</string>
+    <string name="signup_individual">Individual</string>
+    <string name="signup_retailer">Retailer</string>
+    <string name="signup_or">OR</string>
+    <string name="signup_cancel">Clear</string>
+    <string name="signup_signup">SignUp</string>
+    <string name="signup_already_a_member">Already a member ?</string>
+    <string name="signup_login">Login</string>
+    <string name="no_internet_try_again">Try Again</string>
+    <string name="no_internet_button_enable">ENABLE</string>
+    <string name="no_internet_button_enable_mobile_data">ENABLE MOBILE DATA</string>
+    <string name="no_internet_class_no_internet_msg">NO INTERNET :-(</string>
+    <string name="no_internet_internet_not_proper_msg">INTERNET IS NOT PROPER :\'-(</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="log_in">Log In</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="greet">wecme !!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="you_will_receive_otp_within">You will receive OTP within</string>
+    <string name="_0">0</string>
+    <string name="seconds">seconds.</string>
+    <string name="didn_t_receive_otp">Didn’t receive OTP ?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="submit">Submit</string>
+    <string name="your_transaction_is_pending">Your transaction is pending....</string>
+    <string name="reference_id">Reference id:</string>
+    <string name="_24646456">24646456</string>
+    <string name="payment_id">Payment id:</string>
+    <string name="htg4587">HTG4587</string>
+<string name="selectmerchant">Please select the merchant name you want to pay</string>
+    <string name="_200">0</string>
+    <string name="add_more">Add More</string>
+    <string name="pay_will_be_added_soon">Pay</string>
+    <string name="your_tracknpay_wallet_is_here">Your TraknPay Wallet</string>
+    <string name="_5000">0</string>
+    <string name="add_money">Load Money</string>
+    <string name="pay_will_be_added_soon_1">Pay</string>
+    <string name="rs_50000">Rs.50000</string>
+    <string name="edit_profile_1">Edit Profile</string>
+    <string name="first_name_1">First Name</string>
+    <string name="last_name_1">Last name</string>
+    <string name="save">save</string>
+    <string name="will_be_added_soon">Will be added soon....</string>
+    <string name="reference_id_1">Reference id:</string>
+    <string name="will_be_added_soon_2">will be added soon</string>
+    <string name="your_current_balance">Your current balance</string>
+    <string name="or">OR</string>
+    <string name="load_money">Load Money</string>
+    <string name="pay_money">Pay Money</string>
+    <string name="promo_code_if_any">promo code (if any)</string>
+    <string name="pay_cash">Pay Cash</string>
+    <string name="load_cash">Load Cash</string>
+    <string name="please_enable_your_camera_permission_to_make_faster_paymet_via_qr_code">Please enable your camera permission to make faster paymet via QR code.</string>
+    <string name="enable_camera">Enable Camera</string>
+    <string name="search_branch">Search branch</string>
+    <string name="pay">Pay</string>
+    <string name="reason_optional">Reason (Optional)</string>
+    <string name="amountwithoutcolon">Amount</string>
+    <string name="ok">OK</string>
+<string name="pay_in">PAY-IN</string>
+    <string name="pay_out">PAY-OUT</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descriptiionhindi"> हम अगर अपने फोन नंबर अपने बैंक खाते के साथ पंजीकृत है सत्यापित करने के लिए अपने फोन से एक एसएमएस भेजने की जरूरत है
+</string>
+    <string name="descriptiion"> We need to send an SMS from your phone to verify if your phone number is registered with your bank account
+</string>
+    <string name="descriptuonkannada">
+ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆ ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಯೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಿದೆ ವೇಳೆ ಪರಿಶೀಲಿಸಲು ನಿಮ್ಮ ಫೋನ್ ನಿಂದ ಎಸ್ಎಂಎಸ್ ಕಳುಹಿಸಬೇಕು
+    </string>
+    <string name="descriptiontamil">
+
+நாம் சரிபார்க்க உங்கள் தொலைபேசி இருந்து ஒரு எஸ்எம்எஸ் அனுப்ப வேண்டும், உங்கள் தொலைபேசி எண் உங்கள் வங்கி கணக்கு பதிவு என்றால்
+    </string>
+<string name="descriptiontelugu">
+
+మేము మీ ఫోన్ నంబర్ మీ బ్యాంకు ఖాతాతో నమోదు ఉంటే ధృవీకరించడానికి మీ ఫోన్ నుండి ఎస్ఎంఎస్ పంపాలి
+
+</string>
+    <string name="headingenglish">
+        Verify Mobile Number
+    </string>
+    <string name="headinghindi">
+        सत्यापित करें मोबाइल नंबर
+    </string>
+    <string name="headingtamil">
+மொபைல் எண்ணை சரிபார்க்க
+    </string>
+    <string name="headingtelugu">
+మొబైల్ నంబర్ను ధృవీకరించండి
+    </string>
+    <string name="headingkannada">
+ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ
+    </string>
+    <string name="message">
+        By Clicking next i agree to the terms and conditions Regular  carrier charges may apply
+    </string>
+     <string name="messagehindi">
+      अगले क्लिक करके मैं नियम और नियमित वाहक शुल्क लागू हो शर्तों से सहमत
+    </string>
+    <string name="messagetelugu">
+
+తదుపరి క్లిక్ చేయడం ద్వారా నేను నిబంధనలు మరియు రెగ్యులర్ క్యారియర్ ఛార్జీలు వర్తించవచ్చు షరతులను అంగీకరించకుంటే
+    </string>
+    <string name="messagetamil">
+
+அடுத்த கிளிக் செய்வதன் மூலம் நான் விதிகள் மற்றும் வழக்கமான கேரியர் கட்டணம் பொருந்தும் நிபந்தனைகளுக்கு உடன்பட
+    </string>
+    <string name="messagekannada">
+        ಮುಂದಿನ ಕ್ಲಿಕ್ಕಿಸಿ ನಾನು ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ನಿಯಮಿತ ವಾಹಕ ಶುಲ್ಕಗಳು ಅನ್ವಯಿಸಬಹುದು ಒಪ್ಪುತ್ತೀರಿ
+    </string>
+    <string name="NextEnglish">
+    Next
+    </string>
+    <string name="Nexthindi">
+        अगला
+        </string>
+
+    <string name="nexttamil">
+        அடுத்த
+    </string>
+    <string name="nextkannada">
+        ಮುಂದಿನ
+    </string>
+    <string name="nexttelugu">
+        తరువాత
+    </string>
+    <string name="language">
+        हिंदी
+    </string>
+    <string name="kannada">
+        ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆ ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಯೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಿದೆ ವೇಳೆ ಪರಿಶೀಲಿಸಲು ನಿಮ್ಮ ಫೋನ್ ನಿಂದ ಎಸ್ಎಂಎಸ್ ಕಳುಹಿಸಬೇಕು
+    </string>
+    <string name="tamil">
+நாம் சரிபார்க்க உங்கள் தொலைபேசி இருந்து ஒரு எஸ்எம்எஸ் அனுப்ப வேண்டும், உங்கள் தொலைபேசி எண் உங்கள் வங்கி கணக்கு பதிவு என்றால்    </string>
+<string name="telugu">
+    మేము మీ ఫోన్ నంబర్ మీ బ్యాంకు ఖాతాతో నమోదు ఉంటే ధృవీకరించడానికి మీ ఫోన్ నుండి ఎస్ఎంఎస్ పంపాలి
+</string>
+<string name="Englishshow">
+   Show
+</string>
+    <string name="Englishhide">
+   Hide
+</string>
+    <string name="Kannadashow">
+
+ಪ್ರದರ್ಶನ
+</string>
+    <string name="KannadaHide">
+    ಮರೆಮಾಡಲು
+    </string>
+    <string name="Hindishow">
+
+दिखाना
+</string>
+
+<string name="Hindihide">
+छिपाना
+</string>
+    <string name="Tamilshow">
+  பார்க்க
+</string>
+     <string name="Tamilhide">
+  மறைக்க
+</string>
+    <string name="Telugushow">
+
+షో
+</string>
+     <string name="Teluguhide">
+దాచడానికి
+</string>
+    <string name="Englishback">
+BACK
+    </string>
+    <string name="Hindiback">
+वापस
+    </string>
+    <string name="Kannadaback">
+ಮತ್ತೆ
+    </string>
+    <string name="Tamilback">
+மீண்டும்
+    </string>
+       <string name="Teluguback">
+తిరిగి
+    </string>
+    <string name="EnglishEnter">
+
+ENTER
+    </string>
+      <string name="HindiEnter">
+दर्ज
+    </string>
+      <string name="kannadaenter">
+ನಮೂದಿಸಿ
+    </string>
+      <string name="Teluguenter">
+
+నమోదు
+    </string>  <string name="Tamilenter">
+
+
+நுழைய
+    </string>
+
+ <string name="subject">
+         Subject</string>
+    <string name="message1">
+Message
+    </string>
+    <string name="send">SEND</string>
+    <string name="contactus">
+       Contact Us</string>
+    <string name="addmoney">
+    Add Money
+    </string>
+    <string name="paywillbadded">
+        Pay(will be added soon)
+    </string>
+    <string name="yourtranknpaywalletishere">
+     Your TranknPay wallet is here
+    </string>
+ <string name="FirstName">
+     First Name
+    </string>
+    <string name="LastName">
+     Last Name
+    </string>
+    <string name="Old">
+     Old
+    </string>
+    <string name="New">
+     New
+    </string>
+    <string name="Confirm">
+     Confirm
+    </string>
+    <string name="exitprofile">
+       ExitProfile
+    </string>
+ <string name="changepassword">
+        Change Password
+    </string>
+    <string name="loadcash">
+        Load Cash
+    </string>
+      <string name="apply">
+        Apply
+    </string>
+
+    >
+    <string name="myprofile">
+    My Profile
+</string>
+    <string name="home">
+       Home
+    </string>
+    <string name="wallet">
+        Wallet
+    </string>
+    <string name="adduser">
+        Add User
+    </string>
+    <string name="trans">
+Transaction
+    </string>
+    <string name="aboutus">
+        About Us
+    </string>
+    <string name="logout">
+        Logout
+    </string>
+     <string name="doyouwanttoexit">
+        Do You Want To Logout
+    </string>
+    <string name="pick">
+       Pick contact you want to add
+    </string>
+    <string name="select">
+Select
+    </string>
+    <string name="passcodesetting">
+        Do you want to set a passcode for security reason ?
+    </string>
+    <string name="skip">
+        Skip
+    </string>
+    <string name="setpasscode">
+        set a passcode
+    </string>
+      <string name="setalert">
+Set a Alert
+    </string>
+    <string name="mini">
+        Set a minimum percentage alert ?
+    </string>
+    <string name="settingpercentage">
+Set Percentage for each user
+    </string>
+    <string name="equalpercentage">
+Allow equal percentage to all
+    </string>
+    <string name="next">
+        Next
+    </string>
+    <string name="amount">
+        Enter the value
+    </string>
+</resources>

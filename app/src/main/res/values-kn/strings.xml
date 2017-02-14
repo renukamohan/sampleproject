@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="subject">
+
+ವಿಷಯ
+</string>
+    <string name="message1">
+
+ಸಂದೇಶವನ್ನು
+    </string>
+    <string name="send">ಕಳುಹಿಸು</string>
+    <string name="contactus">
+       ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="addmoney">
+      ಹಣ ಸೇರಿಸಬಹುದು
+    </string>
+    <string name="paywillbadded">
+
+ವೇತನ ಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸಲಾಗುತ್ತದೆ
+    </string>
+    <string name="yourtranknpaywalletishere">
+
+ನಿಮ್ಮ tranknpay ಕೈಚೀಲ ಇಲ್ಲಿ
+    </string>
+    <string name="add_more">
+ಸೇರಿಸಿ</string>
+    ಸೇರಿಸಿ
+
+    <string name="FirstName">
+        पहला नाम
+    </string>
+    <string name="LastName">
+      अंतिम ना
+    </string>
+
+    <string name="Old">
+    ಹಳೆಯ
+    </string>
+    <string name="New">
+   ಹೊಸ
+    </string>
+    <string name="Confirm">
+    ದೃಢೀಕರಿಸಿ
+    </string>
+    <string name="exitprofile">
+
+ಪ್ರೊಫೈಲ್ ಅನ್ನು ನಿರ್ಗಮಿಸಲು
+    </string>
+ <string name="changepassword">
+         ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ
+    </string>
+ <string name="loadcash">
+
+ಲೋಡ್ ನಗದು
+    </string>
+      <string name="apply">
+        ಅರ್ಜಿ
+    </string>
+        <string name="myprofile">
+   ಸ್ವ ಭೂಮಿಕೆ
+</string>
+
+<string name="home">
+
+ಮುಖಪುಟ
+    </string>
+    <string name="wallet">
+        ಕೈಚೀಲ
+    </string>
+    <string name="trans">
+        ವ್ಯವಹಾರ
+    </string>
+    <string name="aboutus">
+ನಮ್ಮ ಬಗ್ಗೆ    </string>
+     <string name="logout">
+       ಲಾಗ್ ಔಟ್
+        </string>
+    <string name="doyouwanttoexit">
+       ನೀವು ಲಾಗ್ ಔಟ್ ಬಯಸುವಿರಾ
+    </string>
+    <string name="pick">
+        ನೀವು ಸೇರಿಸಲು ಬಯಸುವ ಸಂಪರ್ಕವನ್ನು ಆರಿಸಿ
+    </string>
+<string name="adduser">
+
+ಬಳಕೆದಾರ ಸೇರಿಸಿ
+    </string>
+      <string name="select">
+        ಆಯ್ಕೆ
+    </string>
+     <string name="passcodesetting">
+        ನೀವು ಭದ್ರತಾ ಕಾರಣಕ್ಕಾಗಿ ಒಂದು ಪಾಸ್ಕೋಡ್ ಸೆಟ್ ಬಯಸುತ್ತೀರಾ ?
+    </string>
+    <string name="skip">
+        ಬಿಟ್ಟು
+    </string>
+    <string name="setpasscode">
+        ಪಾಸ್ಕೋಡ್ ಹೊಂದಿಸಿ
+    </string>
+     <string name="setalert">
+
+ಒಂದು ಎಚ್ಚರಿಕೆಯನ್ನು ಹೊಂದಿಸಲು
+    </string>
+    <string name="mini">
+        ಕನಿಷ್ಠ ಶೇಕಡಾವಾರು ಎಚ್ಚರಿಕೆಯನ್ನು ಹೊಂದಿಸಲು ?
+    </string>
+    <string name="settingpercentage">
+
+ಪ್ರತಿ ಬಳಕೆದಾರ ಸೆಟ್ ಶೇಕಡಾವಾರು
+    </string>
+     <string name="equalpercentage">
+
+ಎಲ್ಲರಿಗೂ ಸಮಾನ ಶೇಕಡಾವಾರು ಅವಕಾಶ
+    </string>
+    <string name="next">
+        ಮುಂದಿನ
+    </string>
+    <string name="amount">
+        ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ
+    </string>
+    <string name="pay_will_be_added_soon">ಪಾವತಿ</string>
+    <string name="selectmerchant">
+ನೀವು ಪಾವತಿ ಬಯಸುವ ವ್ಯಾಪಾರಿ ಹೆಸರನ್ನು ಆಯ್ಕೆ</string>
+    <string name="no_internet_try_again">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು</string>
+    <string name="no_internet_button_enable">
+ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="no_internet_button_enable_mobile_data">ಮೊಬೈಲ್ ಡೇಟಾವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="pay_cash">ಪೇ ನಗದು</string>
+    <string name="load_cash">ಲೋಡ್ ನಗದು</string>
+    <string name="load_money">ಲೋಡ್ ಮನಿ</string>
+    <string name="pay_in">ಪೇ ಇನ್</string>
+    <string name="pay_out">ಪಾವತಿ</string>
+</resources>

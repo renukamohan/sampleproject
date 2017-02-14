@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.traknpay.wallet.flowactivities.ShowSelBranch">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="@dimen/s_16"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/show_sel_branch_branch_inputlayout"
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/show_sel_branch_branch_autocomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:drawableLeft="@android:drawable/ic_menu_search"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:hint="@string/search_branch"
+                android:completionThreshold="1"
+              />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|end"
+            android:src="@android:drawable/ic_input_get"
+            android:id="@+id/show_sel_branch_branch_list_imageview"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/show_sel_branch_amount_input_layout"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/s_16"
+        android:paddingRight="@dimen/s_16"
+        android:paddingStart="@dimen/s_16"
+        android:paddingEnd="@dimen/s_16"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/show_sel_branch_amount_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lines="1"
+            android:drawableStart="@drawable/rupee"
+            android:drawableLeft="@drawable/rupee"
+            android:hint="@string/amountwithoutcolon"
+            android:textColor="@color/black"
+            android:inputType="number"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/show_sel_branch_pay_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="@dimen/s_10"
+        android:layout_marginLeft="@dimen/s_10"
+        android:layout_marginStart="@dimen/s_10"
+        android:layout_marginEnd="@dimen/s_10"
+        android:layout_marginRight="@dimen/s_10"
+        android:paddingLeft="@dimen/s_16"
+        android:paddingRight="@dimen/s_16"
+        android:paddingStart="@dimen/s_16"
+        android:paddingEnd="@dimen/s_16"
+        android:textColor="@android:color/white"/>
+</android.support.v7.widget.LinearLayoutCompat>

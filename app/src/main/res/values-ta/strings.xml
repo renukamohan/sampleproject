@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="subject">
+
+பொருள்
+</string>
+    <string name="message1">
+
+செய்தி
+    </string>
+    <string name="send">அனுப்புಸು</string>
+    <string name="contactus">
+       எங்களை தொடர்பு</string>
+    <string name="addmoney">
+      பணம் சேர்க்க
+    </string>
+    <string name="paywillbadded">
+
+
+சம்பளம் (விரைவில் சேர்க்கப்படும்)
+    </string>
+    <string name="yourtranknpaywalletishere">
+      உங்கள்
+பணப்பை இருக்கிறது இங்கே
+    </string>
+
+    <string name="FirstName">
+      మొదటి పే
+    </string>
+    <string name="LastName">
+     చివరి పే
+    </string>
+
+
+    <string name="Old">
+     பழைய
+    </string>
+    <string name="New">
+    புதிய
+    </string>
+    <string name="Confirm">
+     உறுதிப்படுத்தவும்
+    </string>
+<string name="exitprofile">
+      வெளியேறு பின்னணிக்
+    </string>
+     <string name="changepassword">
+
+கடவுச்சொல்லை மாற்று
+    </string>
+     <string name="loadcash">
+       லோட்  கேஷ்
+    </string>
+      <string name="apply">
+        விண்ணப்பிக்க
+    </string>
+
+<string name="myprofile">
+  என் சுயவிவரம்
+</string>
+
+     <string name="home">
+      முகப்பு
+    </string>
+    <string name="wallet">
+        பணப்பை
+    </string>
+    <string name="trans">
+        பரிவர்த்தனை
+    </string>
+    <string name="aboutus">
+        எங்களை பற்றி
+    </string>
+     <string name="logout">
+        வெளியேறு
+        </string>
+    <string name="doyouwanttoexit">
+
+நீங்கள் வெளியேற விரும்புகிறீர்களா
+    </string>
+    <string name="pick">
+        நீங்கள் சேர்க்க வேண்டும் தேர்வுசெய்க
+    </string>
+    <string name="adduser">
+        பயனர் சேர்க்க
+    </string>
+<string name="select">
+    தேர்வு
+</string>
+     <string name="passcodesetting">
+        நீங்கள் பாதுகாப்பு காரணங்களால் ஒரு கடவுக்குறியீடு அமைக்க விரும்புகிறீர்கள் ?
+    </string>
+    <string name="skip">
+        தவிர்க்க
+    </string>
+    <string name="setpasscode">
+        ஒரு கடவுக்குறியீடு அமைக்க
+    </string>
+     <string name="setalert">
+
+
+ஒரு எச்சரிக்கை அமைக்க
+    </string>
+       <string name="mini">
+ஒரு குறைந்தபட்ச சதவீதம் எச்சரிக்கை அமைக்க ?
+    </string>
+    <string name="settingpercentage">
+
+ஒவ்வொரு பயனர் குறிப்பிட்ட சதவிகித
+    </string>
+      <string name="equalpercentage">
+அனைவருக்கும் சம சதவீதம் அனுமதிக்க
+    </string>
+    <string name="next">
+        அடுத்த
+    </string>
+    <string name="amount">
+        மதிப்பை உள்ளிடவும்
+    </string>
+    <string name="add_more">
+
+சேர்க்க மேலும்</string>
+    <string name="pay_will_be_added_soon">செலுத்த</string>
+    <string name="selectmerchant">
+நீங்கள் செலுத்த வேண்டும் தயவு செய்து வணிகர் பெயர் தேர்வு</string>
+    <string name="no_internet_try_again">மீண்டும் முயற்சி செய்</string>
+    <string name="no_internet_button_enable">இயக்கு</string>
+    <string name="no_internet_button_enable_mobile_data">
+மொபைல் தரவை இயக்கு</string>
+    <string name="pay_cash">பணம் செலுத்து</string>
+    <string name="load_cash">சுமை பண</string>
+    <string name="load_money">
+சுமை பணம்</string>
+    <string name="pay_in">செலுத்த್</string>
+    <string name="pay_out">அவுட் கொடுக்க</string>
+</resources>

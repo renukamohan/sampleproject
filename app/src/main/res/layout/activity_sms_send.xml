@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="30dp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Sending SMS..........."
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/editTextEnterReceipents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/textViewTitle"
+        android:inputType ="number"
+        android:text="Receipent"
+        android:textSize="20dp"
+
+        android:textColor="@color/white">
+    </android.support.v7.widget.AppCompatTextView>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/editTextCompose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEnterReceipents"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="left|top"
+        android:textColor="@color/white"
+        android:text="Minimum " >
+    </android.support.v7.widget.AppCompatTextView>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/editTextCompose1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEnterReceipents"
+        android:layout_toRightOf="@+id/editTextCompose"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="left|top"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:text="10 " >
+    </android.support.v7.widget.AppCompatTextView>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/editTextCompose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEnterReceipents"
+        android:layout_toRightOf="@+id/editTextCompose1"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="left|top"
+        android:textColor="@color/white"
+        android:paddingLeft="2dp"
+        android:text="percentage of alter has set " >
+    </android.support.v7.widget.AppCompatTextView>
+    <Button
+        android:id="@+id/buttonSendNow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickSend"
+        android:textColor="@color/white"
+        android:layout_below="@+id/editTextCompose"
+        android:text="@string/Confirm" />
+</RelativeLayout>
+
+</RelativeLayout>

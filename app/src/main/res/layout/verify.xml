@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sim"
+        android:id="@+id/sim"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/city_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Mobile Number"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/sim"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city_field"
+        android:text="We need to send an SMS from your phone to verify if your phone number is registered with your bank account"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:text="SIM 1 -Jio4g"
+
+        android:layout_below="@+id/textfield"
+        android:paddingTop="20dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/sim1"
+        android:background="@color/silver"
+        android:id="@+id/view1"
+
+        />
+    <TextView
+        android:id="@+id/sim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="SIM 2-Aircel"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/sim1" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/sim2"
+        android:background="@color/silver"
+        android:visibility="visible"
+        android:id="@+id/view2"
+
+        />
+    <TextView
+        android:id="@+id/sampletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:text="By Clicking next i agree to the terms and conditions Regular  carrier charges may apply"
+        android:layout_above="@+id/nextverify"
+        />
+    <TextView
+        android:id="@+id/nextverify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:padding="10dp"/>
+
+
+
+</RelativeLayout>

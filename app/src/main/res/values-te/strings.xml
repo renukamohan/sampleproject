@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="subject">
+         విషయంள்</string>
+    <string name="message1">
+సందేశం
+    </string>
+    <string name="send">పంపడానికిಸು</string>
+    <string name="contactus">
+       మమ్మల్ని సంప్రదించండిபு</string>
+    <string name="addmoney">
+     డబ్బు జోడించడానికి
+    </string>
+    <string name="paywillbadded">
+        జీతం (చేర్చబడుతుంది)
+    </string>
+    <string name="yourtranknpaywalletishere">
+     మీ
+        జేబు ఉంద ఇక్కడ
+    </string>
+    <string name="FirstName">
+       முதல் பெயர்
+    </string>
+    <string name="LastName">
+     கடைசி பெயர்
+    </string>
+    <string name="Old">
+    పాత
+    </string>
+    <string name="New">
+     న్యూ
+    </string>
+    <string name="Confirm">
+   నిర్ధారించండి
+    </string>
+    <string name="exitprofile">
+        నిష్క్రమణ ప్రొఫైల్
+    </string>
+        <string name="changepassword">
+            మార్పు పాస్వర్డ్
+        </string>
+     <string name="loadcash">
+        లోడ్ నగదు
+    </string>
+    <string name="apply">
+        దరఖాస్తు
+    </string>
+
+<string name="myprofile">
+   నా జీవన వివరణ
+</string>
+    <string name="home">
+        హోమ్ పేజీ
+    </string>
+    <string name="wallet">
+        జేబు
+    </string>
+    <string name="trans">
+        లావాదేవీ
+    </string>
+    <string name="aboutus">
+        మా గురించి
+    </string>
+     <string name="logout">
+        లాగ్ అవుట్
+        </string>
+    <string name="doyouwanttoexit">
+       మీరు లాగ్అవుట్ అనుకుంటున్నారా
+    </string>
+    <string name="pick">
+        మీరు జోడించదలచిన సంప్రదించండి ఎంచుకోండి
+    </string>
+    <string name="adduser">
+
+వాడుకరి జోడించండి
+    </string>
+    <string name="select">
+        ఎంచుకోండి
+    </string>
+     <string name="passcodesetting">
+        మీరు భద్రతా కారణాల కోసం పాస్కోడ్ను సెట్ పెట్టమంటారా ?
+    </string>
+    <string name="skip">
+        గంతువేయు
+    </string>
+    <string name="setpasscode">
+     పాస్కోడ్ను సెట్
+    </string>
+    <string name="setalert">
+
+ఒక హెచ్చరిక సెట్
+    </string>
+    <string name="mini">
+
+ఒక కనీస శాతం హెచ్చరిక సెట్ ?
+    </string>
+        <string name="settingpercentage">
+
+ప్రతి యూజర్ కోసం సెట్ శాతం
+    </string>
+    <string name="equalpercentage">
+
+అన్ని సమాన శాతం అనుమతిస్తుంది
+    </string>
+    <string name="next">
+        తరువాత
+    </string>
+    <string name="amount">
+
+విలువ ఎంటర్
+    </string>
+        <string name="add_more">
+
+
+మరిన్ని జోడించండి</string>
+    <string name="pay_will_be_added_soon">చెల్లించాల్సి</string>
+    <string name="selectmerchant">
+మీరు చెల్లించడానికి కావలసిన దయచేసి వ్యాపారి పేరు ఎంచుకోండి</string>
+    <string name="no_internet_try_again">
+మళ్ళీ ప్రయత్నించండి</string>
+    <string name="no_internet_button_enable">ప్రారంభించు</string>
+    <string name="no_internet_button_enable_mobile_data">
+మొబైల్ డేటాను ప్రారంభించు</string>
+    <string name="pay_cash">పే క్యాష్</string>
+    <string name="load_cash">లోడ్ క్యాష్</string>
+    <string name="load_money">మనీ లోడ్</string>
+    <string name="pay_in">చెల్లిస్తారు</string>
+    <string name="pay_out">చెల్లిస్తూ</string>
+</resources>

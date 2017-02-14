@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subject">
+विषय</string>
+    <string name="message1">
+        संदेश
+    </string>
+    <string name="send">भेजना </string>
+    <string name="contactus">
+        हमसे संपर्क करें    </string>
+    <string name="addmoney">
+        पैसे जोड़ें
+    </string>
+    <string name="paywillbadded">
+
+वेतन (जल्द ही जोड़ दिया जाएगा)
+    </string>
+    <string name="yourtranknpaywalletishere">
+        तुंहारे बटुआ
+यहाँ है
+    </string>
+    <string name="FirstName">
+        ಮೊದಲ ಹೆಸರು
+    </string>
+    <string name="LastName">
+     ಕೊನೆಯ ಹೆಸರ
+    </string>
+
+    <string name="Old">
+    पुराना
+    </string>
+    <string name="New">
+    नया
+    </string>
+    <string name="Confirm">
+
+पुष्टि करें
+    </string>
+    <string name="exitprofile">
+        बाहर निकलें शख्सियत
+    </string>
+     <string name="changepassword">
+         पासवर्ड बदलें
+    </string>
+     <string name="loadcash">
+        लोड नकदी
+    </string>
+      <string name="apply">
+        लागू करें
+    </string>
+     <string name="myprofile">
+    मेरी प्रोफाइल
+</string>
+    <string name="home">
+मुख पृष्ठ
+    </string>
+    <string name="trans">
+        सौदा
+    </string>
+    <string name="aboutus">
+        हमारे बारे में
+    </string>
+    <string name="logout">
+        लोग आउट
+        </string>
+     <string name="wallet">
+       बटुआ
+    </string>
+    <string name="doyouwanttoexit">
+        क्या आपको बाहर निकलना है
+    </string>
+    <string name="pick">
+        उठाओ संपर्क आप जोड़ना चाहते हैं
+    </string>
+    <string name="adduser">
+
+उपयोगकर्ता जोड़ें
+    </string>
+    <string name="select">
+        चुनते हैं
+    </string>
+    <string name="passcodesetting">
+        आप सुरक्षा कारणों के लिए एक पासकोड सेट करना चाहते हैं ?
+    </string>
+    <string name="skip">
+        छोड़ें
+    </string>
+         <string name="setpasscode">
+            एक पासकोड सेट
+        </string>
+      <string name="setalert">
+एक चेतावनी सेट
+    </string>
+    <string name="mini">
+
+एक न्यूनतम प्रतिशत चेतावनी सेट ?
+    </string>
+    <string name="settingpercentage">
+
+प्रत्येक उपयोगकर्ता के लिए सेट प्रतिशत
+    </string>
+ <string name="equalpercentage">
+
+सभी के लिए समान प्रतिशत की अनुमति देते हैं
+    </string>
+<string name="next">
+    आगामी
+</string>
+    <string name="amount">
+        मान दर्ज
+    </string>
+    <string name="add_more">
+अधिक जोड़ें</string>
+    <string name="pay_will_be_added_soon">वेतन</string>
+    <string name="selectmerchant">कृपया व्यापारी नाम का चयन आप भुगतान करना चाहते हैं</string>
+    <string name="no_internet_try_again">पुनः प्रयास करें</string>
+    <string name="no_internet_button_enable">सक्षम</string>
+    <string name="no_internet_button_enable_mobile_data">सक्षम मोबाइल डेटा</string>
+    <string name="pay_cash">नकद भुगतान</string>
+    <string name="load_cash">लोड नकद</string>
+    <string name="load_money">
+लोड मनी</string>
+    <string name="pay_in">
+में भुगतान</string>
+    <string name="pay_out">अदा करना</string>
+</resources>

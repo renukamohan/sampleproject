@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commom_dialog_title_id"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:paddingTop="@dimen/s_16"
+        android:paddingLeft="@dimen/s_16"
+        android:paddingRight="@dimen/s_16"
+        android:padding="@dimen/s_10"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/s_10"
+        android:layout_marginLeft="@dimen/s_10"
+        android:layout_marginStart="@dimen/s_10"
+        android:layout_marginRight="@dimen/s_10"
+        android:layout_marginEnd="@dimen/s_10"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/commom_dialog_subjuct_id"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_margin="@dimen/s_10"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/commom_dialog_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginLeft="@dimen/s_10"
+        android:layout_marginStart="@dimen/s_10"
+        android:layout_marginRight="@dimen/s_10"
+        android:layout_marginEnd="@dimen/s_10"
+        android:layout_marginBottom="@dimen/s_10"
+        android:textColor="@android:color/white"/>
+</android.support.v7.widget.LinearLayoutCompat>

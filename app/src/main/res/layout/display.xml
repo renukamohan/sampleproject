@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pick contact you want to add"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:padding="10dp"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/colorPrimary"
+    android:id="@+id/pick"
+    android:textStyle="bold"
+    />
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lv"
+    android:layout_marginTop="10dp"
+    android:divider="@color/colorPrimary"
+    android:dividerHeight="3px"
+    android:layout_below="@+id/pick"/>
+
+<Button
+android:id="@+id/button_select"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+android:text="Select"
+    android:textStyle="bold"
+android:layout_alignParentBottom="true"
+    android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>

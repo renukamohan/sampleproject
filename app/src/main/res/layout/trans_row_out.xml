@@ -1,0 +1,200 @@
+<com.traknpay.wallet.customwidgits.ExpandableLayout
+    android:id="@+id/trans_row_out_expand_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/s_5"
+        android:paddingBottom="@dimen/s_5"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/trans_row_out_click_layout"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/btn_out_expand_toggle"
+                android:src="@drawable/circle_plus"
+                android:layout_width="@dimen/s_0"
+                android:layout_height="@dimen/s_30"
+                android:layout_weight="0.1"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/header_title_out"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="@dimen/s_0"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"/>
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/btn_status_out"
+                android:src="@drawable/ic_failed"
+                android:layout_width="@dimen/s_0"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/s_10"
+            android:layout_marginRight="@dimen/s_10"
+            android:layout_marginTop="@dimen/s_5"
+            android:background="@color/colorPrimary"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:canExpand="true"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_10"
+            android:padding="@dimen/s_6"
+            android:background="@drawable/btm_brgr"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/reference_id_1"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="0.5"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/trans_row_out_child_ref_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_10"
+            android:padding="@dimen/s_6"
+            android:background="@drawable/btm_brgr"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Merchant name:"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="0.5"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/trans_row_out_child_merchant_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_10"
+            android:padding="@dimen/s_6"
+            android:background="@drawable/btm_brgr"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Amount:"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="0.5"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/trans_row_out_child_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_10"
+            android:padding="@dimen/s_6"
+            android:background="@drawable/btm_brgr"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cashback:"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="0.5"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/trans_row_out_child_cashback"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_10"
+            android:padding="@dimen/s_6"
+            android:background="@drawable/btm_brgr"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Status:"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="0.5"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/trans_row_out_child_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/s_10"
+            android:padding="@dimen/s_6"
+            android:background="@drawable/btm_brgr"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="0.5"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/trans_row_out_child_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</com.traknpay.wallet.customwidgits.ExpandableLayout>

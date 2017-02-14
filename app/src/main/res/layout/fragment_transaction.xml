@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:id="@+id/order_fragment_swipe_refresh_id"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/transaction_fragment_recycleview_id">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/transaction_textview_cmg_soon"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+     />
+
+
+</FrameLayout>
+
+

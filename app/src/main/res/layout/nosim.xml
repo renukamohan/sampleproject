@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="3">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_nosim"
+    android:scaleType="fitStart"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:id="@+id/nosim"
+    android:padding="5dp"
+android:layout_marginTop="50dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Sim Crad Detected"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This application oly works with the mobile registered with your bank"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="13pt"
+        android:gravity="center"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:id="@+id/simbutton"
+        android:layout_gravity="center"/>
+</LinearLayout>

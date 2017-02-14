@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/fullhard"
+    android:layout_weight="4"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_weight="4"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:id="@+id/etNum1"
+                android:layout_width="fill_parent"
+                android:text="Register Passcode"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:inputType="numberDecimal">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:gravity="center|end"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/ic_eye"
+                android:layout_alignParentEnd="true"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:id="@+id/eye"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:padding="5dp"
+                android:src="@drawable/ic_noeye"
+                android:visibility="gone"
+                android:id="@+id/eye1"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5pt"
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:text="show"
+                android:textSize="23dp"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:id="@+id/linear"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+              android:maxLength="1"
+                android:layout_weight="0.1"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:background="@drawable/editborder"
+                android:id="@+id/edit1"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                />
+
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/editborder"
+                android:id="@+id/edit2" />
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/edit3"
+                android:background="@drawable/editborder"
+                />
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/edit4"
+                android:background="@drawable/editborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="13pt"
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:id="@+id/one">
+            </Button>
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="13pt"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/two">
+            </Button>
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="13pt"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/three">
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_marginTop="1pt"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="13pt"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="3dp"
+                android:id="@+id/four">
+            </Button>
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="13pt"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/five">
+            </Button>
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="13pt"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/six">
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:layout_marginTop="1pt"
+android:layout_weight="1"
+
+            >
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="7"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:textSize="13pt"
+                android:id="@+id/seven">
+            </Button>
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="8"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:textSize="13pt"
+                android:background="@color/colorPrimary"
+                android:id="@+id/eight">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="9"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:textSize="13pt"
+                android:background="@color/colorPrimary"
+                android:id="@+id/nine">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5"
+            android:layout_marginTop="1pt"
+            android:layout_weight="1"
+
+            >
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:textSize="11pt"
+                android:layout_margin="1dp"
+              android:background="@color/colorPrimary"
+                android:id="@+id/back">
+            </Button>
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="13pt"
+                android:textColor="@color/white"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/zero">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:text="Enter"
+                android:textSize="11pt"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:layout_margin="1dp"
+                android:id="@+id/nothng">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

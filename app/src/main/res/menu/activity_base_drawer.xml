@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/add_user"
+            android:title="Add User" />
+        <item
+            android:id="@+id/nav_trans"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out" />
+    </group>
+
+
+
+</menu>
